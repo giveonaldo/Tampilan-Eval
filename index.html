@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-[#E2E8F0] font-sans">
+
+    <!-- Navbar -->
+    <nav class="bg-[#1A1A2E] w-full h-16">
+        <div class="flex items-center max-w-6xl justify-between h-full mx-auto">
+            <div class="flex items-center gap-2">
+                <img src="./assets/cat.jpg" alt="gambar kucing" class="w-10 h-10 object-fit rounded-full" />
+                <a href="/">
+                    <h1 class="text-white font-bold font-mono text-2xl">Kepo Blog</h1>
+                </a>
+            </div>
+            <div class="flex items-center gap-6">
+                <button
+                    class="border border-[#667EEA] bg-transparent uppercase text-[#667EEA] font-semibold text-sm px-4 transition-all py-2 items-center rounded cursor-pointer hover:bg-[#667EEA] hover:text-white">
+                    Login
+                </button>
+                <button
+                    class="uppercase text-sm font-semibold text-white bg-[#667EEA] px-4 py-2 rounded transition-all hover:bg-[#5a6bc1] cursor-pointer">
+                    Register
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Second Navbar -->
+    <nav class="bg-white w-full h-16">
+        <div class="flex items-center justify-between max-w-6xl h-full mx-auto shadow-xs">
+            <div class="flex items-center gap-6 uppercase">
+                <a href="/" class="text-gray-800 text-medium">Home</a>
+                <a href="./pages/show-all.html" class="text-gray-500 text-medium">Show All</a>
+                <a href="./pages/berbisik.html" class="text-gray-500 text-medium">Berbisik</a>
+                <a href="./pages/gosip.html" class="text-gray-500 text-medium">Gosip</a>
+                <a href="./pages/apa-tuh.html" class="text-gray-500 text-medium">Apa tuh!!</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Section main -->
+    <section class="grid grid-cols-3 gap-6 max-w-6xl mx-auto my-10">
+
+        <!-- Blog -->
+        <div class="col-span-2">
+
+            <!-- Card 1 -->
+            <div class="flex flex-col bg-white rounded-xl overflow-hidden shadow-md mb-6">
+                <img src="./assets/card-1.png" alt="gambar card blog" class="object-cover " />
+                <div class="flex flex-col gap-4 p-6">
+                    <div class="flex items-center gap-4">
+                        <a href="#" class="uppercase text-xs bg-[#EE5A24] font-mono font-medium text-white py-1 px-3 rounded-xl">Berbisik</a>
+                        <a href="#" class="uppercase text-xs bg-[#667EEA] font-mono font-medium text-white py-1 px-3 rounded-xl">Gosip</a>
+                    </div>
+
+                    <h1 class="text-2xl font-bold font-sans">Ibu - ibu sedang kumpul bahas tetangga sebelah</h1>
+                    <p class="text-gray-500 font-sans">
+                        Ibu-ibu sedang berkumpul di depan rumah, membahas tetangga sebelah yang baru pindah. Mereka saling bertukar cerita dan gosip tentang kehidupan tetangga tersebut.
+                        Ada yang mengatakan bahwa tetangga tersebut sangat ramah, ada juga yang mengatakan bahwa mereka.
+                    </p>
+
+                    <div class="flex items-center justify-between w-full">
+                        <div>
+                            
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=""></div>
+    </section>
+</body>
+
+</html>
